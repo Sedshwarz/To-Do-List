@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css.css">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  </head>
+  <body>
+    <div class="wrap">
+      <h2>To Do List</h3>
+      <div class="top">
+        <input type="text" id="task" placeholder="New Task">
+        <button id="add" onclick="add()"><i class="fas fa-plus"></i></button>
+      </div>
+
+      <div class="noTask">No Task On The List!</div>
+
+      <ul id="list"></ul>
+
+      <div class="bottom">
+        <label id="qnt"></label>
+        <button id="clearAll" onclick="clearAll()">Clear All</button>
+      </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
